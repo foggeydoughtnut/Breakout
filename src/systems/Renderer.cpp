@@ -26,11 +26,12 @@ namespace systems
         {
             auto position = entity->getComponent<components::Position>();
             auto sprite = entity->getComponent<components::Sprite>();
+            auto size = entity->getComponent<components::Size>();
 
             sprite->get()->setPosition(position->get());
             
             sprite->get()->setRotation(position->getRotation());
-            sprite->get()->setScale(Configuration::getGraphics().getScaleUI());
+            sprite->get()->setScale(sprite->get()->getScale());
 
             renderTarget->draw(*sprite->get());
             

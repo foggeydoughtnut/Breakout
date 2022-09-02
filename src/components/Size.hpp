@@ -15,8 +15,9 @@ namespace components
     class Size : public PolymorphicComparable<Component, Size>
     {
       public:
-        Size(sf::Vector2f size) : 
-            m_size(size)
+        Size(sf::Vector2f size, sf::Vector2f scaleToUnitSize) : 
+            m_size(size),
+            m_scaleToUnitSize(scaleToUnitSize)
         {
         }
 
@@ -24,5 +25,6 @@ namespace components
 
       private:
         sf::Vector2f m_size;
+        sf::Vector2f m_scaleToUnitSize;
     };
 }

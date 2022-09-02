@@ -45,16 +45,17 @@ namespace entities
 
         // Add the components to this
         entity->addComponent(std::make_unique<components::Position>(position));
-        entity->addComponent(std::make_unique<components::Size>(viewSize));
+        entity->addComponent(std::make_unique<components::Size>(viewSize * size, scaleToUnitSize));
         entity->addComponent(std::make_unique<components::Sprite>(playerSprite));
-        entity->addComponent(std::make_unique<components::Movement>(0.02f));
+        entity->addComponent(std::make_unique<components::Movement>(0.04f));
         entity->addComponent(std::make_unique<components::RectangularCollider>(sf::Vector2f(1.0f, 1.0f)));
+
 
         //entity->addComponent(std::make_unique<components::Audio>(content::KEY_AUDIO_GENERIC, true));
 
         auto inputs = {
-            components::Input::Type::Up,
-            components::Input::Type::Down,
+            // components::Input::Type::Up,
+            // components::Input::Type::Down,
             components::Input::Type::Left,
             components::Input::Type::Right,
             components::Input::Type::Fire};

@@ -1,3 +1,3 @@
 # About
 
-Game I am making to get practice with c++. Base of the project created using https://github.com/ProfPorkins/GameTech
+Breakout game I have been making. Based on https://github.com/sonorousduck/DoodleJump

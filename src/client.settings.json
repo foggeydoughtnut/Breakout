@@ -1,0 +1,29 @@
+{
+    "graphics": {
+        "resolution": {
+            "width": 1920,
+            "height": 1080
+        },
+        "bpp": 32,
+        "full-screen": false,
+        "vsync": true,
+        "scale-to-resolution": false
+    },
+    "keyboard": {
+        "repeat-delay": 150,
+        "left": "a",
+        "right": "d",
+        "reset": "r"
+    },
+    "mouse": {
+        "invert-pan-horz": false,
+        "invert-pan-vert": false,
+        "invert-zoom": false
+    },
+    "music": {
+        "play-background": true
+    },
+    "other": {
+        "show-hints": true
+    }
+}

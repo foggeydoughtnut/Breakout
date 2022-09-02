@@ -1,0 +1,101 @@
+{
+    "developer": {
+        "main-menu": true
+    },
+    "camera": {
+        "comment": "These values are best if they are odd",
+        "min-range": 6,
+        "max-range": 24
+    },
+    "content": {
+        "font": {
+            "hint": {
+                "filename": "Shojumaru-Regular.ttf",
+                "size": 50,
+                "color-fill": "255, 255, 0",
+                "color-outline": "255, 255, 255"
+            },
+            "title": {
+                "filename": "Shojumaru-Regular.ttf",
+                "size": 60,
+                "color-fill": "0, 0, 255",
+                "color-outline": "255, 255, 255"
+            },
+            "menu": {
+                "filename": "Shojumaru-Regular.ttf",
+                "size": 40,
+                "color-fill": "0, 0, 255",
+                "color-outline": "255, 255, 255",
+                "color-active-fill": "255, 255, 0",
+                "color-active-outline": "0, 0, 0"
+            },
+            "level-select": {
+                "filename": "Shojumaru-Regular.ttf",
+                "title-size": 40,
+                "item-size": 20,
+                "color-title-fill":"51, 102, 255",
+                "color-title-outline":"255, 255, 255"
+            },
+            "high-scores": {
+                "filename": "Shojumaru-Regular.ttf",
+                "filename-value": "SourceCodePro-Bold.ttf",
+                "title-size": 40,
+                "color-title-fill":"51, 102, 255",
+                "color-title-outline":"255, 255, 255",
+                "header-size": 20,
+                "color-header-fill":"0, 0, 0",
+                "color-header-outline":"255, 255, 255",
+                "item-size": 20,
+                "color-item-fill":"0, 0, 255",
+                "color-item-outline":"255, 255, 255",
+                "color-item-active-fill":"255, 255, 0",
+                "color-item-active-outline":"0, 0, 0",
+                "value-size": 24
+            },
+            "credits": {
+                "filename": "Shojumaru-Regular.ttf",
+                "title-size": 42,
+                "item-size": 34,
+                "color-title-fill": "51, 102, 255",
+                "color-title-outline": "255, 255, 255",
+                "color-item-fill": "255, 255, 0",
+                "color-item-outline":"0, 0, 0"
+            },
+            "about": {
+                "filename": "Shojumaru-Regular.ttf",
+                "item-size": 34,
+                "color-fill": "0, 0, 255",
+                "color-outline":"255, 255, 255"
+            },
+            "settings": {
+                "filename": "Shojumaru-Regular.ttf",
+                "heading-size": 40,
+                "item-size": 36,
+                "message-size": 24,
+                "color-title-fill": "0, 0, 255",
+                "color-title-outline": "255, 255, 255",
+                "color-fill": "0, 0, 255",
+                "color-outline": "255, 255, 255",
+                "color-active-fill": "0, 0, 0",
+                "color-active-outline": "255, 255, 255",
+                "color-selection-fill": "255, 255, 255",
+                "color-selection-outline": "0, 0, 0"
+            },
+            "gameplay": {
+                "filename": "Shojumaru-Regular.ttf",
+                "score-size": 24
+            }
+        },
+        "audio": {
+            "game": {
+                "burn": "fire.ogg"
+            }
+        },
+        "music": {
+            "background": "soliloquy.ogg"
+        },
+        "image": {
+            "menu-background": "menu-background.jpg"
+        }
+    }
+}
